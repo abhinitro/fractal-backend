@@ -38,8 +38,6 @@ DROP TABLE IF EXISTS `buckets`;
 CREATE TABLE `buckets` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
-  `description` text  DEFAULT NULL,
-  `date` varchar(255) NOT NULL,
   `state_id` int(11)  DEFAULT '0',
   `type_id` int(11)  DEFAULT '0',
   `created_on` datetime DEFAULT NULL,
